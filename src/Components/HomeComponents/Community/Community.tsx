@@ -23,8 +23,8 @@ export const Community = () => {
                   style={{ backgroundColor: '#F2F2F2' }}
                 >
                   <img src={twitter} alt="twitter" />
-                  <p className='font-semibold text-sm'>Over 9k Followers</p>
-                  <button className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
+
+                  <button onClick={() => { location.href = 'https://twitter.com/crunchbio' } } className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
                     Follow
                   </button>
                 </div>
@@ -32,7 +32,7 @@ export const Community = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-12 sm:col-span-3">
+        {/* <div className="col-span-12 sm:col-span-3">
           <div className="outer-div">
             <div className="middle-div h-full">
               <div className="inner-div h-full">
@@ -41,7 +41,7 @@ export const Community = () => {
                   style={{ backgroundColor: '#F2F2F2' }}
                 >
                   <img src={discord} alt="discord" />
-                  <p className='font-semibold text-sm'>Over 10k Followers</p>
+
                   <button className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
                     Follow
                   </button>
@@ -49,7 +49,7 @@ export const Community = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-span-12 sm:col-span-3">
           <div className="outer-div">
             <div className="middle-div h-full">
@@ -59,8 +59,8 @@ export const Community = () => {
                   style={{ backgroundColor: '#F2F2F2' }}
                 >
                   <img src={telegram} alt="telegram" />
-                  <p className='font-semibold text-sm'>Over 10k Followers</p>
-                  <button className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
+                  
+                  <button onClick={() => { location.href = 'https://t.me/crunch.bio' } } className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
                     Follow
                   </button>
                 </div>
