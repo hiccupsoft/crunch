@@ -4,6 +4,7 @@ import './community.css'
 import twitter from '../../../assets/twitter.png'
 import telegram from '../../../assets/Telegram.png'
 import discord from '../../../assets/Discord.png'
+import medium from '../../../assets/Medium.png'
 export const Community = () => {
   return (
     <Container maxWidth="xl" sx={{ margin: '70px auto' }}>
@@ -32,7 +33,7 @@ export const Community = () => {
             </div>
           </div>
         </div>
-        {/* <div className="col-span-12 sm:col-span-3">
+        <div className="col-span-12 sm:col-span-3">
           <div className="outer-div">
             <div className="middle-div h-full">
               <div className="inner-div h-full">
@@ -40,16 +41,16 @@ export const Community = () => {
                   className="flex flex-col items-center justify-around h-full py-5"
                   style={{ backgroundColor: '#F2F2F2' }}
                 >
-                  <img src={discord} alt="discord" />
+                  <img src={medium} alt="medium" />
 
-                  <button className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
+                  <button onClick={() => { window.location.href = 'https://medium.com/@crunchbio' } } className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
                     Follow
                   </button>
                 </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="col-span-12 sm:col-span-3">
           <div className="outer-div">
             <div className="middle-div h-full">
