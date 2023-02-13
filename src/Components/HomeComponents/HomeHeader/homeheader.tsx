@@ -30,8 +30,8 @@ export const HomeHeader = () => {
               <button className="whitepaper py-1 sm:py-2 md:py-3 px-4 sm:px-5 md:px-8 rounded-full">
                 Read Whitepaper
               </button>
-              <button className="presale py-1  sm:py-2 md:py-3 px-4 sm:px-5 md:px-8 rounded-full">
-                Join Presale
+              <button onClick={() => { window.location.href = 'https://app.uniswap.org/#/swap?exactField=input&inputCurrency=ETH&outputCurrency=0x180e1ed11ff89d55a09a8c9969a21b86767b4898&chain=mainnet' } } className="presale py-1  sm:py-2 md:py-3 px-4 sm:px-5 md:px-8 rounded-full">
+                Buy
               </button>
             </div>
           </div>
