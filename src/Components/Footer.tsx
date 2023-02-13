@@ -120,7 +120,7 @@ export const Footer: React.FunctionComponent<boolProps> = ({ landing2 }) => {
                       className="w-4 h-4"
                     />
                     <span className="text-sm font-bold text-white ">
-                      polygonscan
+                      etherscan
                     </span>
                   </div>
                 </div>
