@@ -61,7 +61,7 @@ export const Community = () => {
                 >
                   <img src={telegram} alt="telegram" />
                   
-                  <button onClick={() => { window.location.href = 'https://t.me/crunch.bio' } } className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
+                  <button onClick={() => { window.location.href = 'https://t.me/crunchbio' } } className="follow-btn rounded-full mt-4 text-xs px-8 py-2">
                     Follow
                   </button>
                 </div>
