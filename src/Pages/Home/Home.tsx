@@ -33,7 +33,7 @@ export const Home = () => {
       </Container>
       <EarnCrunch></EarnCrunch>
       <Roadmap></Roadmap>
-      <Team></Team>
+      {/* <Team></Team> */}
       <Community></Community>
       <Footer landing2={false}></Footer>
     </div>

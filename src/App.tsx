@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/landing-page2" element={<LandingPage2 />} />
+          {/* <Route path="/landing-page2" element={<LandingPage2 />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

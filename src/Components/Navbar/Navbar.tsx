@@ -19,7 +19,7 @@ const pages = [
   { label: 'About', path: '#about' },
   { label: 'News', path: '#news' },
   { label: 'Roadmap', path: '#roadmap' },
-  { label: 'Team', path: '#team' },
+  // { label: 'Team', path: '#team' },
 ]
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout']
 

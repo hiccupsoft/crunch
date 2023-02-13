@@ -37,7 +37,7 @@ export const Roadmap = () => {
                     Q4
                   </h1>
                   <h1 className="text-2xl text-blue-600 font-semibold text-center">
-                    2021
+                    2022
                   </h1>
                 </div>
                 <p>Team assembled Version 1 of Whitepaper is released</p>
@@ -54,7 +54,7 @@ export const Roadmap = () => {
                     Q1
                   </h1>
                   <h1 className="text-2xl text-blue-600 font-semibold text-center">
-                    2022
+                    2023
                   </h1>
                 </div>
                 <p>
@@ -70,7 +70,7 @@ export const Roadmap = () => {
                     Q2
                   </h1>
                   <h1 className="text-2xl text-blue-600 font-semibold text-center">
-                    2022
+                    2023
                   </h1>
                 </div>
                 <p>
@@ -105,7 +105,7 @@ export const Roadmap = () => {
                     Q3
                   </h1>
                   <h1 className="text-2xl text-blue-600 font-semibold text-center">
-                    2022
+                    2023
                   </h1>
                 </div>
                 <p>
@@ -127,7 +127,7 @@ export const Roadmap = () => {
                     Q4
                   </h1>
                   <h1 className="text-2xl text-blue-600 font-semibold text-center">
-                    2022
+                    2023
                   </h1>
                 </div>
                 <p>Team assembled Version 1 of Whitepaper is released</p>
