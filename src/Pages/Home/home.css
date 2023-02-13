@@ -1,0 +1,35 @@
+.whyCrunch-heading{
+    font-style: normal;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+
+
+color: #060607;
+}
+
+.whyCrunch-description{
+    
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+text-align: center;
+
+/* Light bg Body text color */
+
+color: #272728;
+}
+
+@media screen and (max-width: 870px) {
+    .whyCrunch-heading {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .whyCrunch-description{
+      font-size: 16px;
+    }
+  }

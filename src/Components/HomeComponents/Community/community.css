@@ -1,0 +1,57 @@
+.outer-div {
+  background: linear-gradient(
+    102.82deg,
+    #f8b017 -11.51%,
+    #0a49af 25.54%,
+    #122c73 117.52%
+  );
+  padding: 1.5px;
+  height: 200px;
+}
+.middle-div {
+  background-color: #f2f2f2;
+  padding: 8px;
+}
+.inner-div {
+  background: linear-gradient(
+    102.82deg,
+    #f8b017 -11.51%,
+    #0a49af 25.54%,
+    #122c73 117.52%
+  );
+  padding: 1.5px;
+}
+
+.follow-btn {
+  color: #f2f2f2;
+  background: linear-gradient(
+    93.69deg,
+    #01092d 10.16%,
+    #02166c 92%,
+    #031b87 106.47%
+  );
+  box-shadow: 0px 0px 20px rgba(23, 92, 196, 0.7);
+}
+.community-heading {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 45px;
+  color: #060607;
+}
+.grid-div {
+  padding: 1rem 10% 1rem 10%;
+}
+@media screen and (max-width: 640px) {
+  .community-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .grid-div {
+    padding: 1rem 10% 1rem 10%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .grid-div {
+    padding: 1rem 4% 1rem 4%;
+  }
+}

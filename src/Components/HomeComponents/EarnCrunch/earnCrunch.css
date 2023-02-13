@@ -1,0 +1,126 @@
+.earncrunch-main {
+  height: 1500px;
+}
+.card-heading {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 45px;
+
+  /* Light bg Header text color */
+
+  color: #060607;
+}
+.sub-heading {
+  background: linear-gradient(
+    110.82deg,
+    #f8b017 -20.51%,
+    #0a49af 50.54%,
+    #122c73 117.52%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.card-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  /* Light bg Body text color */
+
+  color: #272728;
+}
+
+.company-heading {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 45px;
+  color: #060607;
+}
+@media screen and (max-width: 640px) {
+  .card-heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .company-heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .card-desc {
+    font-size: 16px;
+  }
+}
+.get-started {
+  color: #f2f2f2;
+  background: linear-gradient(
+    93.69deg,
+    #01092d 10.16%,
+    #02166c 92%,
+    #031b87 106.47%
+  );
+  /* Primary color/deep blue 3 */
+
+  border: 3px solid #031771;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(23, 92, 196, 0.7);
+}
+
+.earnCrunchBg {
+  position: absolute;
+  bottom: 14%;
+  left: 0;
+  right: 0;
+  height: 415px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+  background-size: contain;
+}
+@media screen and (min-width: 1750px) {
+  .earncrunch-main {
+    height: 1470px;
+  }
+  .cil_arrow_circle_right{
+    margin-top: 110px;
+  }
+  .item-content{
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1540px) {
+  .earncrunch-main {
+    height: 1500px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .earnCrunchBg {
+    bottom: 18%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .earnCrunchBg {
+    bottom: 15%;
+  }
+  .earncrunch-main {
+    height: 130rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .earnCrunchBg {
+    bottom: 12%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .earncrunch-main {
+    height: 140rem;
+  }
+}
+
+@media screen and (max-width: 308px) {
+  .earncrunch-main {
+    height: 145rem;
+  }
+}

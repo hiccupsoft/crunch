@@ -1,0 +1,12 @@
+.team-heading {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 45px;
+  color: #060607;
+}
+@media screen and (max-width: 640px) {
+  .team-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}

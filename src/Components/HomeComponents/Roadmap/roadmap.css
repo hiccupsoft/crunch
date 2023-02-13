@@ -1,0 +1,24 @@
+.borderTopLeft {
+  border-top-left-radius: 40px;
+}
+.borderBottomRight {
+  border-bottom-right-radius: 40px;
+}
+.roadmap-heading {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 45px;
+
+  /* Light bg Header text color */
+
+  color: #060607;
+}
+
+@media screen and (max-width: 640px) {
+  .roadmap-heading {
+    font-size: 30px;
+  }
+  .last-item {
+    border-bottom-right-radius: 40px;
+  }
+}

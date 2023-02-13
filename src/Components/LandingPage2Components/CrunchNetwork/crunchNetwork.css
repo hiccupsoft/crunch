@@ -1,0 +1,30 @@
+.network-main {
+  padding: 120px 8% 30px 8%;
+}
+@media screen and (max-width: 1400px) {
+  .network-main {
+    padding: 120px 4% 30px 4%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .network-main {
+    padding:120px 10px 30px 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .network-main {
+    padding: 70px 0px 30px 0px;
+  }
+  .network-heading {
+    font-size: 10px !important;
+  }
+}
+
+.network-heading {
+  font-style: normal;
+  font-size: 40px !important;
+  line-height: 45px;
+  color: #060607;
+}

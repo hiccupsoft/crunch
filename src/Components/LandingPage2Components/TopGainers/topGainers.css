@@ -1,0 +1,38 @@
+.gainers-main{
+    padding: 40px 8% 30px 8%;
+}
+.bgBlue {
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    height: 700px;
+    width: 700px;
+    left: 0%;
+    top: -20%;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(64, 123, 255, 0.159) 61.77%,
+      rgba(255, 236, 195, 0) 84.69%
+    );
+    mix-blend-mode: multiply;
+    filter: blur(120px);
+  }
+  .roadmapBg2{
+      width: 500px;
+      height: 500px;
+  }
+  @media screen and (max-width: 650px) {
+    .bgBlue {
+      height: 500px;
+      width: 500px;
+      top: 0%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .bgBlue {
+        display: none;
+      height: 300px;
+      width: 300px;
+    }
+  }

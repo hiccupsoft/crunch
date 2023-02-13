@@ -1,0 +1,39 @@
+.nav-main {
+  padding: 30px 5% 0px 5%;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-main {
+    padding: 30px 0px 0px 0px;
+  }
+}
+.item {
+  border: 1px solid #5767af;
+}
+.item:hover {
+  background-color: #fff1cd;
+  border: 1px solid #d59a03;
+  color: #5767af;
+  /* font-weight: 400; */
+}
+
+.web-menus{
+    flex-grow: -7;
+}
+.nav1-web-menus{
+    flex-grow: -7;
+}
+.mob-item:hover{
+color: #5767af;
+}
+@media screen and (max-width: 1535px) {
+    .web-menus{
+        flex-grow: 7;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .nav1-web-menus{
+        flex-grow: 7;
+    }
+  }

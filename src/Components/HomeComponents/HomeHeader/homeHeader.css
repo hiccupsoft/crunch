@@ -1,0 +1,124 @@
+.blueBg {
+  position: absolute;
+  border: 1px solid black;
+  height: 700px;
+  width: 700px;
+  left: -10%;
+  top: -10%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(64, 123, 255, 0.159) 61.77%,
+    rgba(255, 236, 195, 0) 84.69%
+  );
+  mix-blend-mode: multiply;
+  filter: blur(120px);
+}
+@media screen and (max-width: 650px) {
+  .blueBg {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .blueBg {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 80px;
+  background: linear-gradient(
+    102.82deg,
+    #f8b017 -11.51%,
+    #0a49af 25.54%,
+    #122c73 117.52%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #272728;
+}
+.whitepaper {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  /* Light bg */
+  color: #f2f2f2;
+  background: linear-gradient(
+    93.69deg,
+    #01092d 10.16%,
+    #02166c 92%,
+    #031b87 106.47%
+  );
+  border: 3px solid #031771;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(23, 92, 196, 0.7);
+}
+
+.presale {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #272728;
+  background: #f2f2f2;
+  border: 3px solid #031771;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px rgba(23, 92, 196, 0.7);
+}
+
+@media screen and (max-width: 1240px) {
+  .heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .whitepaper {
+    font-size: small;
+  }
+  .presale {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 640px) {
+  .heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
+
+.bg1{
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  height: 415px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+  background-size: contain;
+}
