@@ -174,7 +174,7 @@ const Navbar = () => {
             </div>
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          {/* <Box sx={{ flexGrow: 0 }}>
             <button
               onClick={() => {
                 navigate('/landing-page2')
@@ -214,7 +214,7 @@ const Navbar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

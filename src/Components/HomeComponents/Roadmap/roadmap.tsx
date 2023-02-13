@@ -24,7 +24,7 @@ export const Roadmap = () => {
                     Q3
                   </h1>
                   <h1 className="text-2xl text-blue-600 font-semibold text-center">
-                    2021
+                    2022
                   </h1>
                 </div>
                 <p>Concept formulated</p>
